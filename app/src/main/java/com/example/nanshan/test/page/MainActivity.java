@@ -23,6 +23,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @Override
     int getLayout() {
         //newly add on github
+        //newly add on github 01
         return R.layout.activity_main;
     }
 
