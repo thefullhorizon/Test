@@ -24,6 +24,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     int getLayout() {
         //newly add on github
         //newly add on github 01
+        //newly add on github 02
         return R.layout.activity_main;
     }
 
