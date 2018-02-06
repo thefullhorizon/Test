@@ -145,7 +145,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.tv_location12:
 
-                //customized View
+                /**
+                 *
+                 * 这一行用来演示从master 的tag v1.0 中检出一个新的分支 abugfix ,然后修改完之后提交一次，
+                 * 在分别切到master和develop上把abugfix merge进来，并推到服务器上的master develop，最后在
+                 *
+                 */
+                 //customized View
 
                 break;
             case R.id.tv_location21:
