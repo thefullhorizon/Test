@@ -15,6 +15,9 @@ import com.example.nanshan.test.R;
 
 public class DialogGeneralStyleView extends LinearLayout {
 
+
+    private TextView content;
+
     public DialogGeneralStyleView(Context context) {
         this(context, null);
     }
@@ -25,9 +28,12 @@ public class DialogGeneralStyleView extends LinearLayout {
         super(context, attrs, defStyleAttr);
         LayoutInflater.from(context).inflate(R.layout.dialog_general_style_view,this,true);
 
-        TextView content = findViewById(R.id.tv_content);
+        content = findViewById(R.id.tv_content);
         content.setText("Display");
     }
 
 
+    public void setContentString(String content) {
+        this.content.setText(content);
+    }
 }

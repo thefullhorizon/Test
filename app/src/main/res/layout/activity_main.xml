@@ -50,7 +50,7 @@
             android:textSize="20sp"
             android:padding="20dp"
             android:background="#c3f3c3"
-            android:text="XX"/>
+            android:text="Net"/>
 
         <TextView
             android:id="@+id/tv_location22"
@@ -67,6 +67,51 @@
 
     <com.example.nanshan.test.widget.view.CusView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_capture_menu_passport"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="#d2d2d2"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="Cartão de Felicitações"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_request_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#d2d2d2"
+            android:text="result"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_purchase_point"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_blue_round_corner_solid_white_normal"
+        android:layout_marginTop="15dp"
+        android:text="3000 vouchers"
+        android:textColor="#FF19BC9C" />
+
+    <ProgressBar
+        android:id="@+id/saveProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/progress_small" />
+
 
 </LinearLayout>
